@@ -8,6 +8,9 @@ import {FaReact} from 'react-icons/fa'
 import {IoLogoNodejs} from 'react-icons/io'
 import {FaNode} from 'react-icons/fa'
 import {SiMongodb} from 'react-icons/si'
+import {SiPostman} from 'react-icons/si'
+import {DiGit} from 'react-icons/di'
+
 
 const Experience = () => {
   return (
@@ -128,7 +131,34 @@ const Experience = () => {
 
           </div>
 
+        <div className="experience__backend">
+
+        <h3>Others</h3>
+          <div className="experience__content">
+
+            <article className='experience__details'>
+              <SiPostman className='experience__details__icons'/>
+              <div>
+                <h4>Postman</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+              
+            </article>
+
+            <article className='experience__details'>
+              <DiGit className='experience__details__icons'/>
+              <div>
+                <h4>Git</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+              
+            </article>
+
+          </div>
+
         </div>
+
+      </div>
       </div>
     </section>
   )

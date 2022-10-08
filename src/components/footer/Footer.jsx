@@ -29,6 +29,8 @@ const footer = () => {
       <div className="footer__copyright">
         <small>
           &copy; Anmol Chhabra.All Rights Reserved.
+          <br />
+          The Website is still in development and progress is being made in the backend. This Website has Been Made Responsive.
         </small>
       </div>
     </footer>

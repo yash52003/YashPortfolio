@@ -28,21 +28,21 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ WorldWide</small>
+              <VscFolderLibrary className='about__icon'/>
+              <h5>Projects</h5>
+              <small>5+ Completed</small>
             </article>
 
             <article className='about__card'>
-              <VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>15+ Completed</small>
+              <FiUsers className='about__icon'/>
+              <h5>Open to Work</h5>
+              <small>As Intern Now</small>
             </article>
 
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum voluptates blanditiis expedita atque eveniet fugit laudantium in ex praesentium. Beatae, consequuntur. Corrupti inventore labore totam, animi officia minus modi. Eveniet.
+          I am a Fullstack Developer, who loves to transform ideas into reality using code. I'm pursuing Bachelor of technology in Electrical Engineering at IIT(ISM) DHANBAD but I am bit more intrested in Computer Science, Coding and Playing Piano.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
