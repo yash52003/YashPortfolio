@@ -33,7 +33,7 @@ const Testimonial = () => {
               <small className='client__review'>
                 <ul>Full Name : Anmol Chhabra</ul>
                 <ul>BirthDate : November 21, 2002 </ul>
-                <ul>WEBSITE : anmolchhabra.herokuapp.com</ul>
+                <ul>WEBSITE : https://anmolchhabra21.github.io/anmolchhabra/</ul>
                 <ul>EMAIL : anmolchhabra71500@gmail.com</ul>
                 <ul>PHONE : 9468871500</ul>
               </small>
