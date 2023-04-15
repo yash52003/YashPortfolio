@@ -1,5 +1,5 @@
 import React from 'react'
-import Mern_Resume from '../../assets/Mern_Resume.pdf'
+import Mern_Resume from '../../assets/Anmol-Resume_10-04.pdf'
 
 const CTA = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Experience.css'
-import {SiHtml5} from 'react-icons/si'
-import {FaCss3} from 'react-icons/fa'
+import {SiFirebase, SiHtml5, SiMusicbrainz, SiPhp} from 'react-icons/si'
+import {FaCss3, FaLaravel} from 'react-icons/fa'
 import {SiJavascript} from 'react-icons/si'
 import {SiBootstrap} from 'react-icons/si'
 import {FaReact} from 'react-icons/fa'
@@ -10,6 +10,8 @@ import {FaNode} from 'react-icons/fa'
 import {SiMongodb} from 'react-icons/si'
 import {SiPostman} from 'react-icons/si'
 import {DiGit} from 'react-icons/di'
+import {GrMysql} from 'react-icons/gr'
+// import {SiMui} from 'react-icons/si'
 
 
 const Experience = () => {
@@ -62,7 +64,16 @@ const Experience = () => {
             <article className='experience__details'>
               <FaReact className='experience__details__icons'/>
               <div>
-                <h4>React</h4>
+                <h4>ReactJS</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+              
+            </article>
+
+            <article className='experience__details'>
+              <SiMusicbrainz className='experience__details__icons'/>
+              <div>
+                <h4>Material UI</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
               
@@ -97,15 +108,42 @@ const Experience = () => {
               <SiMongodb className='experience__details__icons'/>
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Experienced</small>
               </div>
               
             </article>
 
             <article className='experience__details'>
-              <IoLogoNodejs className='experience__details__icons'/>
+              <SiFirebase className='experience__details__icons'/>
               <div>
-                <h4>Express</h4>
+                <h4>Firebase</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+              
+            </article>
+
+            <article className='experience__details'>
+              <GrMysql className='experience__details__icons'/>
+              <div>
+                <h4>MySQL</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+              
+            </article>
+
+            <article className='experience__details'>
+              <SiPhp className='experience__details__icons'/>
+              <div>
+                <h4>PHP</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+              
+            </article>
+
+            <article className='experience__details'>
+              <FaLaravel className='experience__details__icons'/>
+              <div>
+                <h4>Laravel</h4>
                 <small className='text-light'>Experienced</small>
               </div>
               
@@ -124,8 +162,8 @@ const Experience = () => {
             </article> */}
 
             {/* <article className='experience__details'>
-              <SiHtml5/>
-              <h4>HTML</h4>
+              <GrMysql  className='experience__details__icons'/>
+              <h4>MySQL</h4>
               <small className='text-light'>Experienced</small>
             </article> */}
 

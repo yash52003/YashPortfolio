@@ -1,5 +1,6 @@
 .container.testimonial__container{
     width: 40%;
+    cursor: -webkit-grab; cursor: grab;
 }
 
 .client__avatar{
