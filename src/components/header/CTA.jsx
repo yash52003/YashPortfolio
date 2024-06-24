@@ -1,10 +1,9 @@
 import React from 'react'
-import Mern_Resume from '../../assets/Anmol-Resume_10-04.pdf'
 
 const CTA = () => {
   return (
     <div className='cta'>
-        <a href={Mern_Resume} download className='btn'>Download CV</a>
+        <a href="https://drive.google.com/drive/folders/1iIzHHZUE11z72JRMs7pEKQB6NPx3ARJp?usp=sharing" className='btn'>RESUME</a>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
   )

@@ -28,22 +28,22 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineMailOutline className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>anmolchhabra71500@gmail.com</h5>
-            <a href="mailto:anmolchhabra71500@gmail.com" target='_blank'>Send a Message</a>
+            <h5>yashchoudhary52003@gmail.com</h5>
+            <a href="mailto:yashchoudhary52003@gmail.com" target='_blank'>Send a Message</a>
           </article>
 
           <article className="contact__option">
             <FaLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
-            <h5>anmolchhabra71500@LinkedIn</h5>
-            <a href="https://linkedin.com" target='_blank'>Send a Message</a>
+            <h5>yashchoudhary@Linkedin</h5>
+            <a href="https://www.linkedin.com/in/yash-choudhary-020a79252/" target='_blank'>Send a Message</a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+919468871500</h5>
-            <a href="https://api.whatsapp.com/send?phone+919468871500" target='_blank'>Send a Message</a>
+            <h5>+919987100604</h5>
+            <a href="https://api.whatsapp.com/send?phone+919987100604" target='_blank'>Send a Message</a>
           </article>
         </div>
 
@@ -53,7 +53,6 @@ const Contact = () => {
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' reqired></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
-          
         </form>
       </div>
     </section>

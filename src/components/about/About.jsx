@@ -24,7 +24,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>2+ Year Working</small>
+              <small>3+ Year Working</small>
             </article>
 
             <article className='about__card'>
@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <p>
-          I am a Fullstack Developer, who loves to transform ideas into reality using code. I'm pursuing Bachelor of technology in Electrical Engineering at IIT(ISM) DHANBAD but I am bit more intrested in Computer Science, Coding and Playing Piano.
+          I am a Fullstack Developer, who loves to transform ideas into reality using code. I'm pursuing Bachelor of technology in Electrical Engineering at IIT(ISM) DHANBAD but I am bit more intrested in Computer Science, Coding and Playing Football.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

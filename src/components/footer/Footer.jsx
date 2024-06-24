@@ -1,13 +1,13 @@
 import React from 'react'
 import './Footer.css'
-import {FaFacebookSquare} from 'react-icons/fa'
+import {FaFacebookSquare, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {GrInstagram} from 'react-icons/gr'
 import {ImTwitter} from 'react-icons/im'
 
 const footer = () => {
   return (
     <footer>
-      <h1><a href="#" className='footer__logo'>ANMOL CHHABRA</a></h1>
+      <h1><a href="#" className='footer__logo'>YASH CHOUDHARY</a></h1>
       
 
       <ul className='permalinks'>
@@ -21,14 +21,14 @@ const footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookSquare className='footer__logo'/></a>
-        <a href="https://instagram.com"><GrInstagram className='footer__logo'/></a>
-        <a href="https://twitter.com"><ImTwitter className='footer__logo'/></a>
+        <a href="https://www.linkedin.com/in/yash-choudhary-020a79252/"><FaLinkedin className='footer__logo'/></a>
+        <a href="https://www.instagram.com/yash__iitian/"><GrInstagram className='footer__logo'/></a>
+        <a href="https://github.com/yash52003"><FaGithub className='footer__logo'/></a>
       </div>
 
       <div className="footer__copyright">
         <small>
-          &copy; Anmol Chhabra.All Rights Reserved.
+          &copy; Yash Choudhary.All Rights Reserved.
           <br />
           The Website is still in development and progress is being made in the backend. This Website has Been Made Responsive.
         </small>

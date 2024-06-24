@@ -1,12 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
-import IM1 from "../../assets/unnamed.png";
-import DJrnl from "../../assets/DailyJournal.png";
-import Mapp from "../../assets/Map.jpg";
-import WOut from "../../assets/WorkOut.png";
-import Place from "../../assets/PlaceWeb.png";
-import Dojo from "../../assets/DoJo.png";
-import ism from "../../assets/IsmCon.png";
+import Edtech from "../../assets/Edtech.png";
+import IsmCon from "../../assets/IsmCon.png";
+import OnlineJudge from "../../assets/OnlineJudge.png";
 
 const Portfolio = () => {
   return (
@@ -15,74 +11,51 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Place} alt="Image" />
+            <img src={Edtech} alt="Image" />
           </div>
           <div className="portfolio__item-cta">
-            <h3>Placement Helping Website</h3>
+            <h3>Full Stack Edtech Platfrom</h3>
             <h5>
-              A Portal where Students can register with their credentials and apply for the openings for which they are eligible
-              and can see the messages sent by the company and companies can also register and 
-              publish a job opening and set a branch and CGPA criteria, only that students would be able to apply 
-              and company can send messages to all the applied students and can also specifically see all the students who have applied as well 
-              as download them in a excel file.
+            A fully functional ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.Implemented robust OTP functionality for secure email verification, ensuring user authenticity and data integrity.Integrated Razorpay for streamlined payment processing, enabling hassle-free course enrollment and transactions.Utilized Cloudinary for efficient remote file upload and management, enhancing storage capabilities and media handling.
             </h5>
             <br></br>
             <a
-              href="https://cdc-portal-5df01.web.app/"
+              href="https://github.com/yash52003/EdtechPlatform"
               className="btn btn-primary"
               target="_blank"
             >
-              Hosted Link
+              Github and Hosted Link
             </a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={WOut} alt="Image" />
+            <img src={OnlineJudge} alt="Image" />
           </div>
           <div className="portfolio__item-cta">
-            <h3>Work-out Website</h3>
+            <h3>Full Stack Online Judge and Compiler Project (MERN + Devops)</h3>
             <h5>
-              A MERN Stack Application In which we can Create and Delete a
-              Workout from the front end using ReactJS and update the MongoDB
-              database using the Backend Server. <b>Skills Used: MongoDB,
-              ExpressJS, ReactJS, NodeJS, Mongoose</b>
+            An online judge platform hosting coding problems and challenges. Users solve a series of coding problems. First he has to begin with registration for his account, user can register as admin or user(member). During problem solving, they submit their solutions through the platform. Once submitted, these solutions are evaluated against hidden test cases by the platform. Based on the results of these tests, user solution submission is assigned verdict. The platform provides the infrastructure to manage and execute the DSA coding problems, ensuring fair and impartial evaluation. <b>Skills Used: MongoDB,
+              ExpressJS, ReactJS, NodeJS, Mongoose , Docker , AWS , System Design</b>
             </h5>
             <br></br>
             <a
-              href="https://github.com/anmolchhabra21/WorkoutWebsite"
+              href="https://github.com/yash52003/OnlineJudgee"
               className="btn btn-primary"
               target="_blank"
             >
-              Github
+              Github and Hosted Link
             </a>
           </div>
         </article>
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={Dojo} alt="Image" />
-          </div>
-          <div className="portfolio__item-cta">
-            <h3>MERN CRUD Blogging Website</h3>
-            <h5>Basic Create, Read, Update, Delete functionality application and with a minimilistic theme in MERN Stack.</h5>
-            <br></br>
-            <a
-              href="https://github.com/anmolchhabra21/react-crud-blog"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Github
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={ism} alt="Image" />
+            <img src={IsmCon} alt="Image" />
           </div>
           <div className="portfolio__item-cta">
             <h3>IsmConnect</h3>
@@ -94,72 +67,9 @@ const Portfolio = () => {
               website is launched here
             </h5>
             <br></br>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Hosted Link
-            </a>
           </div>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={Mapp} alt="Image" />
-          </div>
-          <div className="portfolio__item-cta">
-            <h3>Find Nearby Website</h3>
-            <h5>
-              Using geoNear in MongoDB, We filter the users according to
-              latitude and longitude and show which is the closest; we just have
-              to update it via backend, and it sorts as per the location. Skills
-              Used: Mongoose, MongoDB, ExpressJS
-            </h5>
-            <br></br>
-            <a
-              href="https://github.com/anmolchhabra21/Find_NearBy"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Github
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={DJrnl} alt="Image" />
-          </div>
-          <div className="portfolio__item-cta">
-            <h3>Daily Journal Website</h3>
-            <h5>My first Full Stack Website😊</h5>
-            <br></br>
-            <a
-              href="https://github.com/anmolchhabra21/Blog_Journal"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Github
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IM1} alt="Image" />
-          </div>
-          <div className="portfolio__item-cta">
-            <h3>In Progress...</h3>
-            <a
-              href="https://github.com"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Github
-            </a>
-          </div>
-        </article>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Experience.css'
-import {SiFirebase, SiHtml5, SiMusicbrainz, SiPhp} from 'react-icons/si'
+import {SiAmazonaws, SiDocker, SiFirebase, SiHtml5, SiMusicbrainz, SiPhp} from 'react-icons/si'
 import {FaCss3, FaLaravel} from 'react-icons/fa'
 import {SiJavascript} from 'react-icons/si'
 import {SiBootstrap} from 'react-icons/si'
@@ -187,6 +187,24 @@ const Experience = () => {
               <DiGit className='experience__details__icons'/>
               <div>
                 <h4>Git</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+              
+            </article>
+            
+            <article className='experience__details'>
+              <SiDocker className='experience__details__icons'/>
+              <div>
+                <h4>Docker</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+              
+            </article>
+
+            <article className='experience__details'>
+              <SiAmazonaws className='experience__details__icons'/>
+              <div>
+                <h4>AmazonAws</h4>
                 <small className='text-light'>Intermediate</small>
               </div>
               
